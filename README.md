@@ -1,6 +1,5 @@
 # dbda-notes
 
-tentativa de rebase
 
 For chat, we're using [Gitter](https://gitter.im/PyDBDA/Lobby).
 
