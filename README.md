@@ -18,8 +18,8 @@ You need to have the following python packages installed:
 
 In the root of this repository, run something like the following:
 
-    python build_docs.py *.ipynb
+    python build_docs.py notebooks/*.ipynb
 
-Which will convert all of the .ipynb files in the directory root to html, build
-an index page, and stash all the html in the `docs/` folder, which is where it
-needs to be for GitHub Pages to work.
+Which will convert all of the .ipynb files in the `notebooks/` directory to
+html, build an index page, and stash all the html in the `docs/` folder, which
+is where it needs to be for GitHub Pages to work.
