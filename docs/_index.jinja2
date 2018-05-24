@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css" type="text/css">
+  <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+</head>
+<body>
+  <h1>
+    Doing Bayesian Data Analysis
+    <small>With Python!</small>
+  </h1>
+  <p>
+    <a href="https://github.com/PyDBDA/dbda-notes">GitHub link</a>
+  </p>
+  <h2>List of chapters:</h2>
+  <ul>
+    {% for title, dest in html_files %}
+    <li><a href="{{dest}}">{{title}}</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
